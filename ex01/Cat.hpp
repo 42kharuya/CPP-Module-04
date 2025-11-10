@@ -2,6 +2,7 @@
 #define _CAT_H_
 
 #include "Animal.hpp"
+#include "Brain.hpp"
 
 class Cat : public Animal {
 	public:
@@ -11,6 +12,9 @@ class Cat : public Animal {
 	 Cat& operator=(const Cat &other);
 
 	 void makeSound() const;
+
+	private:
+	 Brain *_brain;
 };
 
 #endif // _CAT_H_

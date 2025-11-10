@@ -1,9 +1,9 @@
-NAME			=	ex00.out
+NAME			=	ex02.out
 
 CXX				=	c++
 CXXFLAGS		=	-Wall -Wextra -Werror -std=c++98 -pedantic
 
-SRCS			=	main.cpp Animal.cpp Dog.cpp Cat.cpp WrongAnimal.cpp WrongCat.cpp
+SRCS			=	main.cpp AAnimal.cpp Dog.cpp Cat.cpp AWrongAnimal.cpp WrongCat.cpp Brain.cpp
 
 OBJS_PATH		=	objs/
 OBJS			=	$(SRCS:%.cpp=objs/%.o)
